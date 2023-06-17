@@ -6,25 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-        <style>
-            .tab {
-            display: none;
-            }
-            .tab:target {
-            display: block;
-            }
-        </style>
-        
-        <a href="#tab1">Tab 1</a>
-        <a href="#tab2">Tab 2</a>
-        
-        <div id="tab1" class="tab">
-          Conteúdo da Tab 1
-        </div>
-        
-        <div id="tab2" class="tab">
-          Conteúdo da Tab 2
-        </div>
+  
+No CSS, a propriedade :target é um seletor que é usado para selecionar um elemento que é alvo de um identificador específico na URL. Ele permite estilizar um elemento com base em seu estado de "destino" na página.
+
+O seletor :target é acionado quando um fragmento de identificador específico é anexado à URL. Por exemplo, considere o seguinte link:
+<br><br><br>
+<style>
+    .tab {
+    display: none;
+    }
+    .tab:target {
+    display: block;
+    }
+</style>
+
+<a href="#tab1">Tab 1</a>
+<a href="#tab2">Tab 2</a>
+
+<div id="tab1" class="tab">
+  Conteúdo da Tab 1
+</div>
+
+<div id="tab2" class="tab">
+  Conteúdo da Tab 2
+</div>
         
         
 </body>
